@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    android:id="@+id/Linear1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -12,6 +12,12 @@
     tools:context="com.example.ldh.myapplication.MainActivity"
     android:background="@android:color/holo_green_light">
 
+
+    <TextView
+        android:text="Android Studio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
 
     <Button
         android:text="hello"
@@ -25,8 +31,16 @@
         android:layout_height="100dp"
         android:id="@+id/button2" />
 
-    <CalendarView
+    <CheckBox
+        android:text="CheckBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/calendarView" />
+        android:id="@+id/checkBox" />
+
+    <RadioButton
+        android:text="RadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton" />
+
 </LinearLayout>
